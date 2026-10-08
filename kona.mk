@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    audio.primary.kona \
+    audio.primary.kona  \
     audio.r_submix.default \
     audio.usbv2.default \
 
@@ -239,8 +239,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
 # Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.health-service.default
 
 $(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
 
